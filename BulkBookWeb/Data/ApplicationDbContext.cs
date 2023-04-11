@@ -9,6 +9,6 @@ namespace BulkBookWeb.Data
         {
 
         }
-        public DbSet<Category>
+        public DbSet<Category> Categories { get; set; }
     }
 }
